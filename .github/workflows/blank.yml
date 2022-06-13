@@ -1,9 +1,9 @@
 name: Remote Dispatch Action Initiator
 
 on:
-  push:
-  schedule:
-    - cron: '0 12 * * *'
+  pull_request:
+  branch:
+    - feature
   repository_dispatch:
 
 jobs:
