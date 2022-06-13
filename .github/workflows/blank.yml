@@ -2,8 +2,8 @@ name: Remote Dispatch Action Initiator
 
 on:
   pull_request:
-  branch:
-    - feature
+    branches:
+      - feature
   repository_dispatch:
 
 jobs:
