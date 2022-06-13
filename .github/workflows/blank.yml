@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - feature
+    state: success
   repository_dispatch:
 
 jobs:
